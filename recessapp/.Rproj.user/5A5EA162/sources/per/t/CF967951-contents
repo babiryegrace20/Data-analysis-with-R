@@ -1,0 +1,127 @@
+library(shiny)
+library(shinythemes)
+library(ggplot2)
+gender <- read_csv("gender.csv")
+census <- read_csv("census.csv")
+#View(dataset)
+
+shinyUI(fluidPage(theme=shinytheme("cerulean"),
+  navbarPage(title= "BusinessMarketAwarenessProgram!",
+             tabPanel("Home",
+                      navlistPanel(widths=c(2, 10),
+                                   tabPanel(title="Bargraph", plotOutput("hom")),
+                                   tabPanel(title=" Piechart", plotOutput("pief"), plotOutput("piem"))
+                                   )
+                                   ),
+             tabPanel("Cenral",
+                      navlistPanel(widths=c(2, 10),
+                                   tabPanel(title=" Bargraph", plotOutput("barplot1")
+                                            ),
+                                   tabPanel(title="Histogram", plotOutput("hist1")
+                                   ),
+                                   tabPanel(title=" Piechart", plotOutput("pie1")),
+                                   navbarMenu(title="Deductions",
+                                           tabPanel(title="Mean",
+                                                       h1(strong("Mean:"))),
+                                           tabPanel(title="Median",
+                                                       h1(strong("Median:"))),
+                                           tabPanel(title="Variance",
+                                                       h1(strong("Variance:"))),
+                                           tabPanel(title="Standard Deviation",
+                                                       h1(strong("Standard Deviation:")))
+                                           
+                                                       
+                                            )
+                                   
+                      )),
+             tabPanel("Lubaga",
+                      navlistPanel(widths=c(2, 10),
+                                   tabPanel(title=" Bargraph", plotOutput("barplot2")),
+                                   tabPanel(title="Histogram", plotOutput("hist2")
+                                   ),
+                                   tabPanel(title=" Piechart", plotOutput("pie2")),
+                                   navbarMenu(title="Deductions",
+                                              tabPanel(title="Mean",
+                                                       h1(strong("Mean:"))),
+                                              tabPanel(title="Median",
+                                                       h1(strong("Median:"))),
+                                              tabPanel(title="Variance",
+                                                       h1(strong("Variance:"))),
+                                              tabPanel(title="Standard Deviation",
+                                                       h1(strong("Standard Deviation:")))
+                                              
+                                              
+                                   )
+                                   
+                      )
+             ),
+             tabPanel("Makindye",
+                      navlistPanel(widths=c(2, 10),
+                                   tabPanel(title=" Bargraph", plotOutput("barplot3")),
+                                   tabPanel(title="Histogram", plotOutput("hist3")
+                                   ),
+                                   tabPanel(title=" Piechart", plotOutput("pie3")),
+                                   navbarMenu(title="Deductions",
+                                              tabPanel(title="Mean",
+                                                       h1(strong("Mean:"))),
+                                              tabPanel(title="Median",
+                                                       h1(strong("Median:"))),
+                                              tabPanel(title="Variance",
+                                                       h1(strong("Variance:"))),
+                                              tabPanel(title="Standard Deviation",
+                                                       h1(strong("Standard Deviation:")))
+                                              
+                                              
+                                   )
+                                   
+                      )
+             ),
+             tabPanel("Nakawa",
+                      navlistPanel(widths=c(2, 10),
+                                   tabPanel(title=" Bargraph", plotOutput("barplot4")),
+                                   tabPanel(title="Histogram", plotOutput("hist4")
+                                   ),
+                                   tabPanel(title=" Piechart", plotOutput("pie4")),
+                                   navbarMenu(title="Deductions",
+                                              tabPanel(title="Mean",
+                                                       h1(strong("Mean:"))),
+                                              tabPanel(title="Median",
+                                                       h1(strong("Median:"))),
+                                              tabPanel(title="Variance",
+                                                       h1(strong("Variance:"))),
+                                              tabPanel(title="Standard Deviation",
+                                                       h1(strong("Standard Deviation:")))
+                                              
+                                              
+                                   )
+                                   
+                      )
+             ),
+             tabPanel("Kawempe",
+                      navlistPanel(widths=c(2, 10),
+                                   tabPanel(title=" Bargraph", plotOutput("barplot5")),
+                                   tabPanel(title="Histogram", plotOutput("hist5")
+                                   ),
+                                   tabPanel(title=" Piechart", plotOutput("pie5")),
+                                   navbarMenu(title="Deductions",
+                                              tabPanel(title="Mean",
+                                                       h1(strong("Mean:"))),
+                                              tabPanel(title="Median",
+                                                       h1(strong("Median:"))),
+                                              tabPanel(title="Variance",
+                                                       h1(strong("Variance:"))),
+                                              tabPanel(title="Standard Deviation",
+                                                       h1(strong("Standard Deviation:")))
+                                              
+                                              
+                                   )
+                                   
+                      )
+             ),
+             
+           tabPanel("Log Out")  
+             
+   )
+  
+ )
+)

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564495763256.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2616456005",
+    "id" : "F755A759",
+    "lastKnownWriteTime" : 1564498474,
+    "last_content_update" : 1564498474592,
+    "path" : "C:/Users/GRACE/Desktop/recessapp/UI.R",
+    "project_path" : "UI.R",
+    "properties" : {
+        "cursorPosition" : "15,27",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

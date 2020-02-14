@@ -1,0 +1,2 @@
+ace<-data.frame("shop"=c("nakawa","kampala","jinja"),"attendant"=c("robin","olivia","charley"))
+print(ace)

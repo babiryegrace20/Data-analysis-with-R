@@ -1,0 +1,7 @@
+library(shiny)
+shinyServer(
+  function(input, output){
+    output$Home->renderText({""})
+    output$about->renderText({""})
+  }
+)

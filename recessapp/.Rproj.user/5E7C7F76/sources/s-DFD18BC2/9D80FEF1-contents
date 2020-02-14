@@ -1,0 +1,26 @@
+library(shiny)
+#library(shinythemes)
+#library(dbConnect)
+#library(RMySQL)
+#("ggplot2")
+
+#dataset <- read.csv("E:/recess/csv_.csv")
+
+#View(dataset)
+
+shinyUI(fluidPage(
+ titlePanel(title= "BusinessMarketAwarenessProgram!"),
+ sidebarLayout(
+    sidebarPanel( 
+                 tabsetPanel(type="tab",
+                             tabPanel("Home", textOutput("Home")),
+                             tabPanel("About", textOutput("about"))
+                   
+                 )
+                 ),
+    mainPanel(h3("Welcome To BusinessAwarenessProgram!", align="center"),
+              p("Click create Account to get started OR Login if you already have an account", align="center")
+              )
+  )
+)
+)

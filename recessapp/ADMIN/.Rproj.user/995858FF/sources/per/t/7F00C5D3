@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564496627955.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2466222426",
+    "id" : "7F00C5D3",
+    "lastKnownWriteTime" : 1564484466,
+    "last_content_update" : 1564484466,
+    "path" : "C:/Users/GRACE/Desktop/recessapp/ADMIN/ADMIN/ui.R",
+    "project_path" : "ADMIN/ui.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

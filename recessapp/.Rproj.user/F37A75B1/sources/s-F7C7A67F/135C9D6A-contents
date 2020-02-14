@@ -1,0 +1,19 @@
+library(shiny)
+library(shinythemes)
+library(SixSigma)
+library(dbConnect)
+library(RMySQL)
+fluidPage(theme = shinytheme("cerulean"),
+          navbarPage( #theme = "cerulean",
+            "BusinessMarketAwarenessProgram",
+            tabPanel("Home", 
+                     h1(strong("Welcome To BusinessAwarenessProgram!")),
+                     p(strong("Click Create Account link to get started or Login if you already 
+                     have an account.")),
+                     img(src="home.png")
+                     ),
+            tabPanel("About", "left blank"),
+            tabPanel("Services", "left blank"),
+            tabPanel("Contact", "left blank"),
+          )
+)

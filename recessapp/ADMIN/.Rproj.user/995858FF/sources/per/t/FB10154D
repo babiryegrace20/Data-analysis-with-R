@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564496625100.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1833539780",
+    "id" : "FB10154D",
+    "lastKnownWriteTime" : 1564487402,
+    "last_content_update" : 1564487402,
+    "path" : "C:/Users/GRACE/Desktop/recessapp/ADMIN/ADMIN/server.R",
+    "project_path" : "ADMIN/server.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

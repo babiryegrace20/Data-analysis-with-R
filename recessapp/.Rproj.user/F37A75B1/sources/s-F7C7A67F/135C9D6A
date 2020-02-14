@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1563346525698.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3180527498",
+    "id" : "135C9D6A",
+    "lastKnownWriteTime" : 1563351971,
+    "last_content_update" : 1563351971635,
+    "path" : "E:/recess/RecessApp/UI.R",
+    "project_path" : "UI.R",
+    "properties" : {
+        "cursorPosition" : "6,23",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

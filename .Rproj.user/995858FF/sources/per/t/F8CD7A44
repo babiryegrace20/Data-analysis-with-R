@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1559150622896.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3772502854",
+    "id" : "F8CD7A44",
+    "lastKnownWriteTime" : 1559152598,
+    "last_content_update" : 1559152598804,
+    "path" : "C:/Users/GRACE/Desktop/recess2/4.R",
+    "project_path" : "4.R",
+    "properties" : {
+        "cursorPosition" : "39,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : true,
+    "source_window" : "",
+    "type" : "r_source"
+}
